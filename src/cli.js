@@ -135,7 +135,7 @@ function coverCmd(opts) {
 
     matcherFor({
       root: config.instrumentation.root() || process.cwd(),
-      includes: [ '**/*.js' ],
+      includes: [ '**/*.es6' ],
       excludes: excludes
     }, (err, matchFn) => {
       if (err){
