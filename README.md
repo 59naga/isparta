@@ -5,11 +5,6 @@
 ## Getting started
 
 ```bash
-$ npm install mocha babel 59naga/isparta#another --global
-$ babel-node isparta cover --report text --report html --report lcov _mocha -- test/**/*.es6
-
-# Or...
-
 $ npm install mocha babel 59naga/isparta#another --save-dev
 $ babel-node node_modules/.bin/isparta cover --report text --report html --report lcov node_modules/.bin/_mocha -- test/**/*.es6
 ```
