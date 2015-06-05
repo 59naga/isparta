@@ -1,3 +1,19 @@
+# isparta(Another)
+
+> Isparta is a code coverage tool for ES6 using [`.es6` extension](https://github.com/babel/babel).
+
+## Getting started
+
+```bash
+$ npm install mocha babel 59naga/isparta#another --global
+$ babel-node isparta cover --report text --report html --report lcov _mocha -- test/**/*.es6
+
+# Or...
+
+$ npm install mocha babel 59naga/isparta#another --save-dev
+$ babel-node node_modules/.bin/isparta cover --report text --report html --report lcov node_modules/.bin/_mocha -- test/**/*.es6
+```
+
 # isparta [![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url]
 
 > Isparta is a code coverage tool for ES6 using [babel](https://github.com/babel/babel).
